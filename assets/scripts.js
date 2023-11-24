@@ -13,3 +13,16 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+function lazyLoad() {
+    const images = document.querySelectorAll('img[data-src]');
+    images.forEach(img => {
+        if (img.getBoundingClientRect().top <= window.innerHeight && img.getBoundingClientRect().bottom >= 0) {
+            img.src = img.dataset.src;
+            img.removeAttribute('data-src');
+        }
+    });
+}
+
+window.addEventListener('scroll', lazyLoad);
+window.addEventListener('resize', lazyLoad);
+window.addEventListener('orientationchange', lazyLoad);

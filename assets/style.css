@@ -40,6 +40,9 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
+	max-width: 100%;
+	height: auto;;
 }
 
 #about {
@@ -90,34 +93,10 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
-}
-.gallery .nav {
-	justify-content: center;
-}
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
-}
-.nav-pills .nav-link {
-	color: #000
-}
-.item-column {
-	position: relative;
-	margin-bottom: 0 !important;
-	padding: 0;
-}
-.item-column::after{
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-
 }
 .gallery-item {
 	position: absolute;
@@ -125,15 +104,6 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
 }
 
 .quote {
@@ -255,7 +225,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
