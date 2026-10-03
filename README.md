@@ -33,3 +33,7 @@ The project focuses on providing essential functionalities to ensure secure and 
 - **Web Development:** Understanding and applying core HTML, CSS, and SEO principles.
 - **SEO Optimization:** Learning how to optimize websites for better search engine rankings and user experience.
 - **Performance Tuning:** Enhancing website speed and efficiency.
+
+## Setup and maintenance guide
+
+See the [project guide](docs/PROJECT_GUIDE.md) for repository-specific setup, commands, configuration, implementation limits and verification steps.
