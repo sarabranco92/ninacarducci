@@ -1,35 +1,33 @@
-# Projet 9 - SEO Optimization Project for Nina Carducci Photography
+# Nina Carducci — Photography Website
 
-This repository hosts the SEO optimization project for Nina Carducci's professional photography website. Our main goal is to enhance the website's performance and search engine ranking to make it more accessible and user-friendly.
+A photography website project focused on image delivery, responsive presentation, SEO and accessibility.
 
-## Objectives
+**HTML · CSS · JavaScript · Bootstrap**
 
-- Perform a global optimization of the website focusing on performance and SEO.
-- Implement local SEO using Schema.org.
-- Add social media meta tags to improve social media presence.
-- Adjust the website's accessibility features.
-- Create a detailed optimization report showcasing all actions taken and their impact.
+[View website / demo](https://sarabranco92.github.io/ninacarducci/) · [Setup and technical guide](docs/PROJECT_GUIDE.md) · [Contact Sara](mailto:sbdev42@gmail.com)
 
-## Focus
+![Nina Carducci — Photography Website preview](https://sarabranco.xyz/images/ninacarducciSite.png)
 
-The project focuses on providing essential functionalities to ensure secure and efficient user interactions through a comprehensive SEO strategy.
+## Purpose and features
 
-## Functional Specifications
+- Photography gallery and category filtering
+- Responsive image variants and a carousel
+- SEO-related metadata and accessibility improvements
 
-- **Image Optimization:** Reducing the size of images to decrease page load times.
-- **Code Optimization:** Refactoring the codebase to improve loading speed and site accessibility.
-- **Local SEO:** Implementing Schema.org for local business listing enhancements.
-- **Social Media Meta Tags:** Including meta tags to optimize the site for social media platforms.
-- **Accessibility Adjustments:** Modifying the site to adhere to accessibility standards.
+## My work
 
-## Technical Specifications
+Website optimisation and integration work within an OpenClassrooms project. See the technical guide for the implemented structure and configuration.
 
-- **SEO Audit Tools:** Utilizing Lighthouse and Wave for performance and accessibility auditing.
-- **SEO Improvements:** Applying best practices to improve search engine visibility.
-- **Reporting:** Producing a comprehensive report detailing the optimization process and results.
+## Project status
 
-## Acquired Skills
+OpenClassrooms training project on an existing website. Current Lighthouse or accessibility scores have not been measured. Documentation was reviewed against source on 3 October 2026. Builds, automated tests and complete demo workflows have not been verified.
 
-- **Web Development:** Understanding and applying core HTML, CSS, and SEO principles.
-- **SEO Optimization:** Learning how to optimize websites for better search engine rankings and user experience.
-- **Performance Tuning:** Enhancing website speed and efficiency.
+## Run locally
+
+Follow [the project guide](docs/PROJECT_GUIDE.md) for commands, prerequisites, environment settings and verification steps.
+
+## About the developer
+
+Sara Branco — web developer based in Bayonne, France. I work in **French, Portuguese and English**.
+
+[Portfolio](https://sarabranco.xyz) · [LinkedIn](https://www.linkedin.com/in/sarabranco92) · [Email](mailto:sbdev42@gmail.com)
